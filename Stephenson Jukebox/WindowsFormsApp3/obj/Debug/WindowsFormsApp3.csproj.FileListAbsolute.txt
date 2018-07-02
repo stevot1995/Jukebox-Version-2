@@ -1,0 +1,32 @@
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojResolveAssemblyReference.cache
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.Cache
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\Interop.WMPLib.dll
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\Interop.WMPLib.dll
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\MacMini\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.ResolveComReference.cache
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojResolveAssemblyReference.cache
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\Interop.WMPLib.dll
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.ResolveComReference.cache
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form2.resources
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form3.resources
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\Interop.WMPLib.dll
+C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\AxInterop.WMPLib.dll
