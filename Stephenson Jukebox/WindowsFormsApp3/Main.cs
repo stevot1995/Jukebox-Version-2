@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp3
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
 
     {
         
-        public Form1()
+        public Main()
 
         {
            
@@ -26,13 +26,13 @@ namespace WindowsFormsApp3
    
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            var Setup = new Form3();
+            var Setup = new Setup();
             Setup.Show();
         }
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            var About = new Form2();
+            var About = new Info();
             About.Show();
         }
 
@@ -43,6 +43,11 @@ namespace WindowsFormsApp3
         private void Form3_Load(object sender, EventArgs e)
         {
            
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp3
 {
-    public partial class Form3 : Form
+    public partial class Setup : Form
     {
         
-        public Form3()
+        public Setup()
         {
            
             InitializeComponent();
@@ -94,6 +94,30 @@ namespace WindowsFormsApp3
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void openFileDialog1_FileOk_1(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        
+        {
+            if (listBox2.SelectedItems.Count != 0)
+            {
+                while (listBox2.SelectedIndex != -1)
+                {
+                    listBox2.Items.RemoveAt(listBox2.SelectedIndex);
+                }
+            }
+            if (listBox1.SelectedItems.Count != 0)
+            {
+                while (listBox1.SelectedIndex != -1)
+                {
+                    listBox1.Items.RemoveAt(listBox1.SelectedIndex);
+                }
+            }
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)

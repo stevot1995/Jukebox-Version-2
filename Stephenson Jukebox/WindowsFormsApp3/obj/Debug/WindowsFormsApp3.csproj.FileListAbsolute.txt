@@ -30,3 +30,37 @@ C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFo
 C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
 C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\Interop.WMPLib.dll
 C:\Users\Downstairs pc\Downloads\Visual Studio 2017\Visual Studio 2017\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\AxInterop.WMPLib.dll
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\bin\Debug\Interop.WMPLib.dll
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\bin\Debug\AxInterop.WMPLib.dll
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\Interop.WMPLib.dll
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\AxInterop.WMPLib.dll
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.ResolveComReference.cache
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Main.resources
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Info.resources
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+\\Mac\Home\Downloads\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Setup1.resources
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\bin\Debug\Interop.WMPLib.dll
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\bin\Debug\AxInterop.WMPLib.dll
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\Interop.WMPLib.dll
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\AxInterop.WMPLib.dll
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.ResolveComReference.cache
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Main.resources
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Info.resources
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Setup.resources
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+\\Mac\Home\Desktop\Jukebox Version 2\Stephenson Jukebox\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb

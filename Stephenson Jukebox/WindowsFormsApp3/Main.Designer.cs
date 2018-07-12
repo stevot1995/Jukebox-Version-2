@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp3
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -27,7 +27,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,23 +46,23 @@
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.toolStripMenuItem2});
-            this.menuStrip2.Location = new System.Drawing.Point(9, 815);
+            this.menuStrip2.Location = new System.Drawing.Point(9, 518);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(193, 43);
+            this.menuStrip2.Size = new System.Drawing.Size(189, 40);
             this.menuStrip2.TabIndex = 0;
             this.menuStrip2.Text = "menuStrip2";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(90, 39);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(89, 36);
             this.toolStripMenuItem1.Text = "Setup";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(95, 39);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(92, 36);
             this.toolStripMenuItem2.Text = "About";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
@@ -79,9 +79,9 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(321, 442);
+            this.listBox1.Location = new System.Drawing.Point(201, 364);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(272, 229);
+            this.listBox1.Size = new System.Drawing.Size(228, 179);
             this.listBox1.TabIndex = 2;
             // 
             // listBox2
@@ -89,23 +89,27 @@
             this.listBox2.FormattingEnabled = true;
             this.listBox2.HorizontalScrollbar = true;
             this.listBox2.ItemHeight = 25;
-            this.listBox2.Location = new System.Drawing.Point(321, 264);
+            this.listBox2.Location = new System.Drawing.Point(181, 240);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(258, 54);
+            this.listBox2.Size = new System.Drawing.Size(248, 29);
             this.listBox2.TabIndex = 3;
             // 
-            // Form1
+            // Main
             // 
+            this.AutoSize = true;
             this.BackgroundImage = global::WindowsFormsApp3.Properties.Resources.jukebox;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(908, 855);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(608, 555);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.axWindowsMediaPlayer2);
             this.Controls.Add(this.menuStrip2);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip2;
-            this.Name = "Form1";
+            this.Name = "Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.Main_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer2)).EndInit();
