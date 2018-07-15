@@ -36,8 +36,8 @@
             this.Player = new AxWMPLib.AxWindowsMediaPlayer();
             this.Txt_title = new System.Windows.Forms.TextBox();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
-            this.listBox3 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.listBox3 = new System.Windows.Forms.ListBox();
             this.menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Player)).BeginInit();
             this.SuspendLayout();
@@ -117,6 +117,15 @@
             this.hScrollBar1.TabIndex = 5;
             this.hScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hScrollBar1_Scroll);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(459, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(243, 20);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "© Copyright Thomas Stephenson";
+            // 
             // listBox3
             // 
             this.listBox3.BackColor = System.Drawing.Color.LimeGreen;
@@ -126,15 +135,6 @@
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(248, 24);
             this.listBox3.TabIndex = 6;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(459, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(243, 20);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "© Copyright Thomas Stephenson";
             // 
             // Main
             // 
@@ -178,8 +178,8 @@
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.TextBox Txt_title;
         private System.Windows.Forms.HScrollBar hScrollBar1;
-        private System.Windows.Forms.ListBox listBox3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListBox listBox3;
     }
 }
 

@@ -119,6 +119,7 @@ namespace WindowsFormsApp3
             display_genre(hScrollBar1.Value);
         }
 
+        // Clears the items in listbox1 //
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -126,11 +127,15 @@ namespace WindowsFormsApp3
 
         }
 
+        // Allows the items to be copied when selected to listbox1 //
+
+
         private void button3_Click(object sender, EventArgs e)
         {
             Copy();
 
         }
+
         private void Copy()
         {
             int c = listBox1.Items.Count - 1;
@@ -143,6 +148,8 @@ namespace WindowsFormsApp3
                 }
             }
         }
+
+        // Allows the items to be added to the listbox on selection //
 
         private void button4_Click(object sender, EventArgs e)
         {
@@ -171,6 +178,8 @@ namespace WindowsFormsApp3
 
         }
 
+        // Allows items to be deleted when selected //
+
         private void button5_Click(object sender, EventArgs e)
 
         {
@@ -190,15 +199,21 @@ namespace WindowsFormsApp3
             }
         }
 
+        // Closes the form//
+
         private void button10_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        // Closes the form//
+
         private void button11_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
+        //Moves the genre to the next one //
 
         private void button9_Click(object sender, EventArgs e)
         {
@@ -206,6 +221,7 @@ namespace WindowsFormsApp3
 
         }
         
+        // Moves the genre to the previous one //
         private void button6_Click(object sender, EventArgs e)
         {
             display_genre(hScrollBar1.SmallChange);
@@ -213,6 +229,8 @@ namespace WindowsFormsApp3
 
 
         }
+
+        // Allows items to be deleted when selected //
 
         private void button8_Click(object sender, EventArgs e)
         {
@@ -232,6 +250,7 @@ namespace WindowsFormsApp3
             }
         }
 
+        //Adds item from imported directory//
         private void button7_Click(object sender, EventArgs e)
         {
             Add();
