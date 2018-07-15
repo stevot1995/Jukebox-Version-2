@@ -32,32 +32,14 @@ namespace WindowsFormsApp3
             InitializeComponent();
         }
 
+        // Cant delete this as it breaks my program!!, not sure that it does anything?!?! //
+
         private void Main_Load(object sender, EventArgs e)
         {
-            
-
+           
         }
 
-        
-
-
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-
-        public void click()
-        {
-
-            
-            
-            
-        
-
-
-        }
+        // Opens the Setup form. //
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -65,11 +47,15 @@ namespace WindowsFormsApp3
             Setup.Show();
         }
 
+        // Opens the About form. //
+
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
             var About = new Info();
             About.Show();
         }
+
+        // Loads the form data and interger values of events into the jukebox //
 
         private void Load_data(object sender, EventArgs e)
         {
@@ -93,9 +79,11 @@ namespace WindowsFormsApp3
             // Sets the scroll bar to start scrolling between genres 0-3. //
             hScrollBar1.Maximum = TotalNumberofGenre -1;
 
+            //Creates a new listbox which is equal the the total number of Genres (3) //
 
             Genre = new ListBox[TotalNumberofGenre];
 
+            // Adds tracks into the Genres in the listbox //
 
             for (int G = 0; G < TotalNumberofGenre; G++)
             {
@@ -118,7 +106,7 @@ namespace WindowsFormsApp3
 
         }
 
-        // 
+        // Displays the genre in the textbox //
 
         private void display_genre(int G)
         {
