@@ -19,7 +19,7 @@ namespace WindowsFormsApp3
             InitializeComponent();
         }
         string[] Folderbrowser, MP3;
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
             
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
