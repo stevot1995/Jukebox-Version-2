@@ -36,6 +36,8 @@
             this.Player = new AxWMPLib.AxWindowsMediaPlayer();
             this.Txt_title = new System.Windows.Forms.TextBox();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Player)).BeginInit();
             this.SuspendLayout();
@@ -72,22 +74,21 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(201, 364);
+            this.listBox1.Location = new System.Drawing.Point(181, 364);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(228, 164);
+            this.listBox1.Size = new System.Drawing.Size(248, 164);
             this.listBox1.TabIndex = 2;
             // 
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.HorizontalScrollbar = true;
             this.listBox2.ItemHeight = 20;
             this.listBox2.Location = new System.Drawing.Point(181, 226);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(248, 64);
             this.listBox2.TabIndex = 3;
             this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
-            this.listBox2.DoubleClick += new System.EventHandler(this.select_track);
+            this.listBox2.DoubleClick += new System.EventHandler(this.Queue_song);
             // 
             // Player
             // 
@@ -101,7 +102,7 @@
             // 
             // Txt_title
             // 
-            this.Txt_title.Location = new System.Drawing.Point(181, 175);
+            this.Txt_title.Location = new System.Drawing.Point(181, 194);
             this.Txt_title.Name = "Txt_title";
             this.Txt_title.Size = new System.Drawing.Size(248, 26);
             this.Txt_title.TabIndex = 4;
@@ -116,12 +117,33 @@
             this.hScrollBar1.TabIndex = 5;
             this.hScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hScrollBar1_Scroll);
             // 
+            // listBox3
+            // 
+            this.listBox3.BackColor = System.Drawing.Color.LimeGreen;
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.ItemHeight = 20;
+            this.listBox3.Location = new System.Drawing.Point(181, 318);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(248, 24);
+            this.listBox3.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(459, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(243, 20);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "© Copyright Thomas Stephenson";
+            // 
             // Main
             // 
             this.AutoSize = true;
             this.BackgroundImage = global::WindowsFormsApp3.Properties.Resources.jukebox;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(608, 555);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.listBox3);
             this.Controls.Add(this.hScrollBar1);
             this.Controls.Add(this.Txt_title);
             this.Controls.Add(this.listBox2);
@@ -156,6 +178,8 @@
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.TextBox Txt_title;
         private System.Windows.Forms.HScrollBar hScrollBar1;
+        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.Label label1;
     }
 }
 

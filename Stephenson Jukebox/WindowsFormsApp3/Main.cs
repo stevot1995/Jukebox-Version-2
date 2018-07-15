@@ -23,7 +23,7 @@ namespace WindowsFormsApp3
         WMPLib.WindowsMediaPlayer play = new WMPLib.WindowsMediaPlayer();
         string TrackPath = Directory.GetCurrentDirectory() + "\\Tracks\\";
         int selected_genre;
-        int selected_track;
+        
 
         public Main()
 
@@ -111,12 +111,15 @@ namespace WindowsFormsApp3
                 }
                                                                  
             }
-            // Close the file
+            // Closes the file and also resets the display genre to 0 //
             myInputStream.Close();
 
             display_genre(0);
 
         }
+
+        // 
+
         private void display_genre(int G)
         {
             selected_genre = G;
@@ -132,10 +135,14 @@ namespace WindowsFormsApp3
             }
         }
 
+        // Scroll bar obtains the value to scroll from the display genre //
+
         private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
             display_genre(hScrollBar1.Value);
         }
+
+        // Allows the songs to be selected and play // 
 
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -143,9 +150,22 @@ namespace WindowsFormsApp3
             play.controls.play();
         }
 
-        private void select_track(object sender, EventArgs e)
+        // Double click adds the song to the Queue listbox and Now playing listbox below //
+
+        private void Queue_song(object sender, EventArgs e)
         {
-            
+            {
+                int c = listBox2.Items.Count - 1;
+                for (int t = c; t >= 0; t--)
+                {
+                    if (listBox2.GetSelected(t))
+                    {
+                        listBox1.Items.Add(listBox2.Items[t]);
+                        listBox3.Items.Add(listBox2.Items[t]);
+
+                    }
+                }
+            }
         }
     }
 }
