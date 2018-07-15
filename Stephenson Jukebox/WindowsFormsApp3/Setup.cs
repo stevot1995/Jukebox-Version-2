@@ -120,6 +120,16 @@ namespace WindowsFormsApp3
             }
         }
 
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             
