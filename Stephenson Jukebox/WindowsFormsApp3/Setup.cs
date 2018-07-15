@@ -15,29 +15,29 @@ namespace WindowsFormsApp3
     {
         ListBox[] Genre;
 
-       
+
         string TrackPath = Directory.GetCurrentDirectory() + "\\Tracks\\";
         int selected_genre;
 
         public Setup()
         {
-           
+
             InitializeComponent();
         }
         string[] Folderbrowser, MP3;
         public void button1_Click(object sender, EventArgs e)
         {
-            
+
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 Folderbrowser = openFileDialog1.FileNames;
                 MP3 = openFileDialog1.SafeFileNames;
-                for (int M = 0 ; M <MP3.Length; M++)
+                for (int M = 0; M < MP3.Length; M++)
                 {
                     listBox1.Items.Add(MP3[M]);
                 }
             }
-           
+
         }
 
         public string ListofSongs
@@ -67,9 +67,6 @@ namespace WindowsFormsApp3
 
             // Obtains the files contents and converts it into a interger. //
             TotalNumberofGenre = Convert.ToInt32(myInputStream.ReadLine());
-
-            // Sets the scroll bar to start scrolling between genres 0-3. //
-            
 
             //Creates a new listbox which is equal the the total number of Genres (3) //
 
@@ -115,6 +112,14 @@ namespace WindowsFormsApp3
             }
         }
 
+        // Scroll bar obtains the value to scroll from the display genre //
+
+        private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+            display_genre(hScrollBar1.Value);
+        }
+
+
         private void button2_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
@@ -124,17 +129,17 @@ namespace WindowsFormsApp3
         private void button3_Click(object sender, EventArgs e)
         {
             Copy();
-     
+
         }
         private void Copy()
         {
             int c = listBox1.Items.Count - 1;
-            for (int t = c; t >=0; t--)
+            for (int t = c; t >= 0; t--)
             {
                 if (listBox1.GetSelected(t))
                 {
                     listBox2.Items.Add(listBox1.Items[t]);
-                    
+
                 }
             }
         }
@@ -167,7 +172,7 @@ namespace WindowsFormsApp3
         }
 
         private void button5_Click(object sender, EventArgs e)
-        
+
         {
             if (listBox2.SelectedItems.Count != 0)
             {
@@ -193,6 +198,19 @@ namespace WindowsFormsApp3
         private void button11_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            display_genre(hScrollBar1.SmallChange);
+            
+        }
+
+       
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            display_genre(hScrollBar1.SmallChange);
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
