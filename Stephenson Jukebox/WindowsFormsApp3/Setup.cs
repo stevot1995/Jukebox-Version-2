@@ -40,11 +40,14 @@ namespace WindowsFormsApp3
 
         }
 
+        // Displays list of songs //
+
         public string ListofSongs
         {
             get { return listBox2.SelectedItem.ToString(); }
         }
 
+        // Opens the File browser to look for mp3 files //
 
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
@@ -167,11 +170,15 @@ namespace WindowsFormsApp3
                 }
             }
         }
+        
+        // allows listbox2 items to be selected //
 
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
+
+        // Opens the File browser to look for mp3 files //
 
         private void openFileDialog1_FileOk_1(object sender, CancelEventArgs e)
         {
@@ -255,6 +262,8 @@ namespace WindowsFormsApp3
         {
             Add();
         }
+
+        // allows listbox1 items to be selected //
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
