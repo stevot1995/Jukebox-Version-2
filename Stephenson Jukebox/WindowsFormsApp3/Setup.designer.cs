@@ -42,7 +42,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Txt_title = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
@@ -150,7 +150,7 @@
             this.groupBox2.Controls.Add(this.button8);
             this.groupBox2.Controls.Add(this.button7);
             this.groupBox2.Controls.Add(this.button6);
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.Txt_title);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.listBox2);
             this.groupBox2.Location = new System.Drawing.Point(568, 78);
@@ -196,15 +196,15 @@
             this.button6.Text = "<< Previous";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // Txt_title
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(15, 57);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(306, 26);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "General";
+            this.Txt_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_title.Location = new System.Drawing.Point(15, 57);
+            this.Txt_title.Name = "Txt_title";
+            this.Txt_title.ReadOnly = true;
+            this.Txt_title.Size = new System.Drawing.Size(306, 26);
+            this.Txt_title.TabIndex = 1;
+            this.Txt_title.Text = "General";
             // 
             // label1
             // 
@@ -274,7 +274,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox Txt_title;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
