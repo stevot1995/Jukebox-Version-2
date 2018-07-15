@@ -202,15 +202,39 @@ namespace WindowsFormsApp3
 
         private void button9_Click(object sender, EventArgs e)
         {
-            display_genre(hScrollBar1.SmallChange);
-            
+            display_genre(hScrollBar1.LargeChange);
+
         }
-
-       
-
+        
         private void button6_Click(object sender, EventArgs e)
         {
             display_genre(hScrollBar1.SmallChange);
+            
+
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (listBox2.SelectedItems.Count != 0)
+            {
+                while (listBox2.SelectedIndex != -1)
+                {
+                    listBox2.Items.RemoveAt(listBox2.SelectedIndex);
+                }
+            }
+            if (listBox1.SelectedItems.Count != 0)
+            {
+                while (listBox1.SelectedIndex != -1)
+                {
+                    listBox1.Items.RemoveAt(listBox1.SelectedIndex);
+                }
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Add();
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)

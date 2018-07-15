@@ -179,6 +179,7 @@
             this.button8.TabIndex = 6;
             this.button8.Text = "Delete";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -188,6 +189,7 @@
             this.button7.TabIndex = 5;
             this.button7.Text = "Add";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -240,9 +242,12 @@
             // 
             // hScrollBar1
             // 
+            this.hScrollBar1.LargeChange = 1;
             this.hScrollBar1.Location = new System.Drawing.Point(73, 761);
+            this.hScrollBar1.Maximum = 3;
             this.hScrollBar1.Name = "hScrollBar1";
             this.hScrollBar1.Size = new System.Drawing.Size(80, 26);
+            this.hScrollBar1.SmallChange = 0;
             this.hScrollBar1.TabIndex = 11;
             this.hScrollBar1.Visible = false;
             // 
