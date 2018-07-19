@@ -24,9 +24,12 @@ namespace WindowsFormsApp3
 
             InitializeComponent();
         }
+
+        // This allows a folder browser to search for mp3s //
         string[] Folderbrowser, MP3;
         public void button1_Click(object sender, EventArgs e)
         {
+            // This opens the file explorer and allows mp3s to be added to listbox 1 //
 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -40,14 +43,16 @@ namespace WindowsFormsApp3
 
         }
 
-        // Displays list of songs //
+        // Displays list of songs // 
 
         public string ListofSongs
         {
             get { return listBox2.SelectedItem.ToString(); }
         }
 
-        // Opens the File browser to look for mp3 files //
+        
+
+            // this checks the file is ok//
 
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
