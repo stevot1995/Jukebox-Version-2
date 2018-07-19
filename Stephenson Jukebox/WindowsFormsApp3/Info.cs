@@ -16,6 +16,7 @@ namespace WindowsFormsApp3
         {
             InitializeComponent();
         }
+        // closes the form //
 
         private void buttonOK_Click(object sender, EventArgs e)
         {
@@ -28,6 +29,11 @@ namespace WindowsFormsApp3
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
